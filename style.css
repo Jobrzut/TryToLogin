@@ -5,8 +5,6 @@ body {
  font-family: sans-serif;
  background: url(universe-4609408_1920.jpg); no-repeat;
  background-color: #cccccc;
- background-size: cover;
- 
 }
 
 .login-box{
@@ -67,4 +65,14 @@ body {
 
 .btn:hover {
     background: green;
+}
+
+
+@media screen and (max-width: 1450px) {
+    .login-box {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }   
 }
